@@ -1,0 +1,7 @@
+jupyter
+numpy
+pandas
+pre-commit
+scikit-learn
+scipy
+seaborn

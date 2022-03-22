@@ -1,0 +1,29 @@
+repos:
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: check-yaml
+        name: check-yaml
+
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 2.1.6
+    hooks:
+      - id: markdownlint
+        name: markdownlint
+
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.3.1
+    hooks:
+      - id: nbqa-black
+        name: nbqa-black
+      - id: nbqa-flake8
+        name: nbqa-flake8
+      - id: nbqa-isort
+        name: nbqa-isort
+  
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.5.0
+    hooks:
+      - id: nbstripout
+        name: nbstripout
