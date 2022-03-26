@@ -1,9 +1,9 @@
-# INSERT_YOUR_PROJECT_NAME_HERE
+# 3 Tactics to Improve your Cluster Analysis
 
 ## User setup
 
 1. Create a Python virtual environment.
-   We recommend using Python version INSERT_VERSION_HERE.
+   These contents were developed using Python version 3.9.4.
 
 1. Install the required dependencies with
 
@@ -13,8 +13,6 @@
 
 1. Set up `git-lfs`: follow [these instructions](https://git-lfs.github.com/)
    up to `git lfs install` included.
-
-   REMOVE THIS STEP IF YOUR PROJECT DOES NOT REQUIRE GIT-LFS.
 
 1. The Jupyter notebook and all associated data can be found in the
    `project` repository. You can start the Jupyter server with
@@ -40,7 +38,3 @@
    ```
 
 1. Save any notebooks in `project/notebooks` and any data in `project/data`.
-
-## INSERT_ADDITIONAL_SECTIONS_HERE
-
-TBA
